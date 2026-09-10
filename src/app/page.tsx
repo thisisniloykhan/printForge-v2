@@ -14,7 +14,7 @@ export default function Home(): JSX.Element {
             </p>
             <h1 className="text-2xl font-bold xxs:text-3xl xs:text-4xl ">
               Discover what's possible with <br />
-              <span className="text-highlight-primary-foreground"> 3D printing</span>
+              <span className="text-highlight-secondary"> 3D printing</span>
             </h1>
             <h1 className="text-2xl font-bold xxs:text-3xl xs:text-4xl ">
               Discover what's possible with <br />
