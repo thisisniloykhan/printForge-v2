@@ -14,7 +14,7 @@ export default function NavLink({
     <Link
       ref={ref}
       href={href}
-      className={`transition-colors rounded-md hover:text-highlight ${isActive ? "text-highlight" : "text-foreground"} ${className}`}
+      className={`transition-colors rounded-md hover:text-highlight-secondary ${isActive ? "text-highlight-secondary" : "text-foreground"} ${className}`}
       {...props}
     >
       {children}

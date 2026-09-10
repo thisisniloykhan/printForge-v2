@@ -55,8 +55,10 @@ h6 {
   --color-ring: var(--ring);
   --color-input: var(--input);
   --color-border: var(--border);
-  --color-highlight: var(--highlight);
-  --color-highlight-foreground: var(--highlight-foreground);
+  --color-highlight-primary: var(--highlight-primary);
+  --color-highlight-primary-foreground: var(--highlight-primary-foreground);
+  --color-highlight-secondary: var(--highlight-secondary);
+  --color-highlight-secondary-foreground: var(--highlight-secondary-foreground);
 
   --color-destructive: var(--destructive);
   --color-destructive-foreground: var(--destructive-foreground);
@@ -113,8 +115,10 @@ h6 {
   --accent: hsl(0, 0%, 88%);
   --accent-foreground: oklch(0.22 0 0);
 
-  --highlight: hsl(240deg 95% 62%);
-  --highlight-foreground: hsl(240deg 95% 52%);
+  --highlight-primary: hsl(240deg 95% 62%);
+  --highlight-primary-foreground: hsl(240deg 95% 52%);
+  --highlight-secondary: hsl(240deg 95% 62%);
+  --highlight-secondary-foreground: hsl(240deg 95% 52%);
 
   --destructive: hsl(340deg 95% 39%);
   --destructive-foreground: hsl(333deg 100% 45%);
@@ -163,8 +167,11 @@ h6 {
   --accent: oklch(0.34 0 0);
   --accent-foreground: oklch(0.93 0 0);
 
-  --highlight: hsl(200deg 100% 50%);
-  --highlight-foreground: hsl(200deg 100% 75%);
+  --highlight-primary: hsl(200deg 100% 50%);
+  --highlight-primary-foreground: hsl(200deg 100% 75%);
+
+  --highlight-secondary: hsl(180, 100%, 50%);
+  --highlight-secondary-foreground: hsl(200deg 100% 75%);
 
   --destructive: hsl(340deg 100% 40%);
   --destructive-foreground: hsl(333deg 100% 55%);

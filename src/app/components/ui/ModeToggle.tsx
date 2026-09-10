@@ -35,7 +35,7 @@ export function ModeToggle() {
             size="icon"
             onClick={handleToggle}
             aria-label="Toggle theme"
-            className="rounded bg-transparent shadow-[0_3px_6px_-2px_rgba(0,0,0,0.2)] dark:shadow-[0_3px_6px_-2px_rgba(255,255,255,0.12)] transition-all duration-200 hover:bg-accent/50 hover:text-highlight hover:scale-[1.03] active:translate-y-0.5"
+            className="rounded bg-transparent shadow-[0_3px_6px_-2px_rgba(0,0,0,0.2)] dark:shadow-[0_3px_6px_-2px_rgba(255,255,255,0.12)] transition-all duration-200 hover:bg-accent/50 hover:text-highlight-secondary hover:scale-[1.03] active:translate-y-0.5"
           >
             {mounted ? (
               <motion.div

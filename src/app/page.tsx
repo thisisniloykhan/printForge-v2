@@ -14,7 +14,11 @@ export default function Home(): JSX.Element {
             </p>
             <h1 className="text-2xl font-bold xxs:text-3xl xs:text-4xl ">
               Discover what's possible with <br />
-              <span className="text-highlight"> 3D printing</span>
+              <span className="text-highlight-primary-foreground"> 3D printing</span>
+            </h1>
+            <h1 className="text-2xl font-bold xxs:text-3xl xs:text-4xl ">
+              Discover what's possible with <br />
+              <span className="text-highlight-primary"> 3D printing</span>
             </h1>
             <p className="text-lg text-muted-foreground">
               Join our community of creators and explore a vast library of
@@ -26,7 +30,7 @@ export default function Home(): JSX.Element {
                 href="/3d-models"
                 className="px-6 py-3 text-foreground transition
                 font-semibold
-                duration-100 bg-background border-2 border-foreground hover:bg-foreground hover:text-foreground"
+                duration-100 bg-background border-2 border-foreground hover:bg-foreground hover:text-highlight-primary"
               >
                 BROWSE MODELS
               </NavLink>

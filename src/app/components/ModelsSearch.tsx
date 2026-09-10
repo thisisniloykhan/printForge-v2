@@ -65,13 +65,13 @@ export default function ModelsSearch({ query }: ModelsSearchProps) {
         placeholder="E.g. dragon"
         autoComplete="off"
         defaultValue={query}
-        className="flex-1 min-w-0 h-12 px-5 text-sm placeholder-muted-foreground border border-border rounded-lg focus:border-border-2 focus:outline-none focus:ring-0 md:text-base shadow-[0_3px_6px_-2px_rgba(0,0,0,0.2)] dark:shadow-[0_3px_6px_-2px_rgba(255,255,255,0.12)] transition-all duration-200 hover:bg-accent/50 hover:text-highlight hover:scale-[1.03] active:translate-y-0.5"
+        className="flex-1 min-w-0 h-12 px-5 text-sm placeholder-muted-foreground border border-border rounded-lg focus:border-border-2 focus:outline-none focus:ring-0 md:text-base shadow-[0_3px_6px_-2px_rgba(0,0,0,0.2)] dark:shadow-[0_3px_6px_-2px_rgba(255,255,255,0.12)] transition-all duration-200 hover:bg-accent/50 hover:text-highlight-secondary hover:scale-[1.03] active:translate-y-0.5"
       />
 
       <Button
         type="submit"
         variant="ghost"
-        className="h-12 w-12 p-0 rounded-lg border border-border shrink-0 xs:w-auto xs:px-5 xs:gap-2 shadow-[0_3px_6px_-2px_rgba(0,0,0,0.2)] dark:shadow-[0_3px_6px_-2px_rgba(255,255,255,0.12)] transition-all duration-200 hover:bg-accent/50 hover:text-highlight hover:scale-[1.06] active:translate-y-0.5"
+        className="h-12 w-12 p-0 rounded-lg border border-border shrink-0 xs:w-auto xs:px-5 xs:gap-2 shadow-[0_3px_6px_-2px_rgba(0,0,0,0.2)] dark:shadow-[0_3px_6px_-2px_rgba(255,255,255,0.12)] transition-all duration-200 hover:bg-accent/50 hover:text-highlight-secondary hover:scale-[1.06] active:translate-y-0.5"
       >
         <AnimatedSearchCloseIcon
           trigger={searchTrigger}

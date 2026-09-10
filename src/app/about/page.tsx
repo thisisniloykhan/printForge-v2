@@ -24,7 +24,29 @@ export default function AboutPage(): JSX.Element {
               >
                 About PrintForge
               </p>
-              <h2 className="text-2xl font-bold sm:text-4xl text-highlight">
+              <h2 className="text-2xl font-bold sm:text-4xl text-highlight-secondary">
+                Empowering Makers Worldwide
+              </h2>
+              <p className="md:block md:text-lg text-secondary-foreground">
+                Founded in 2023, PrintForge has quickly become the go-to
+                platform for 3D printing enthusiasts, makers, and professional
+                designers to share and discover amazing STL files for 3D
+                printing.
+              </p>
+              <p>
+                Our mission is to foster a vibrant community where creativity
+                meets technology, enabling anyone to bring their ideas to life
+                through 3D printing.
+              </p>
+            </div>
+            <div className="h-full md:max-w-1/2 md:py-4 md:px-6 flex flex-col flex-1 gap-4 ">
+              <p
+                className="hidden md:block text-sm text-secondary-foreground uppercase"
+                aria-hidden="true"
+              >
+                About PrintForge
+              </p>
+              <h2 className="text-2xl font-bold sm:text-4xl text-highlight-primary">
                 Empowering Makers Worldwide
               </h2>
               <p className="md:block md:text-lg text-secondary-foreground">
