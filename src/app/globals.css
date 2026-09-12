@@ -99,7 +99,8 @@ h6 {
   --background: hsl(0deg 0% 100%);
   --foreground: hsl(222deg 22% 5%);
 
-  --card: hsl(203deg 60% 95%);
+  /* --card: hsl(203deg 60% 95%); */
+  --card: hsl(200deg 90% 88%);
   --card-foreground: hsl(222deg 22% 5%);
 
   --popover: hsl(202deg 68% 92%);
@@ -125,7 +126,7 @@ h6 {
 
   /* --highlight-tertiary: hsl(230deg 100% 50%); */
 
-  --highlight-tertiary: hsl(255deg 85% 30%);
+  --highlight-tertiary: hsl(245deg 85% 40%);
 
   --destructive: hsl(340deg 95% 39%);
   --destructive-foreground: hsl(333deg 100% 45%);
@@ -156,7 +157,8 @@ h6 {
   --background: hsl(210deg 15% 6%);
   --foreground: hsl(210deg 10% 90%);
 
-  --card: hsl(213deg 40% 10%);
+  /* --card: hsl(213deg 40% 10%); */
+  --card: hsl(212deg 40% 9%);
   --card-foreground: hsl(210deg 10% 90%);
 
   --popover: hsl(213deg 40% 12%);

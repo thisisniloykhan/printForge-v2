@@ -27,7 +27,7 @@ export default function ModelsCategoriesNavbar(): JSX.Element {
   }, []);
 
   return (
-    <aside className=" sticky top-17.5 sm:top-21.5 z-10 w-full bg-background border-b border-border md:fixed md:top-33 md:w-64 md:border-none">
+    <aside className=" sticky top-17.5 sm:top-23 z-10 w-full bg-background border-b border-secondary md:fixed md:top-33 md:w-64 md:border-none">
       <div className="relative">
         <nav
           ref={navRef}
