@@ -20,6 +20,11 @@ export default function Home(): JSX.Element {
               Discover what's possible with <br />
               <span className="text-highlight-primary"> 3D printing</span>
             </h1>
+            <h1 className="text-2xl font-bold xxs:text-3xl xs:text-4xl ">
+              Discover what's possible with <br />
+              <span className="text-highlight-tertiary"> 3D printing</span>
+            </h1>
+
             <p className="text-lg text-muted-foreground">
               Join our community of creators and explore a vast library of
               user-submitted models

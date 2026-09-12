@@ -35,7 +35,7 @@ h6 {
 
 @theme inline {
   --font-heading: var(--font-montserrat-alternates);
-  --font-sans: var(--font-albert-sans);
+  --font-sans: var(--font-montserrat);
 
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
@@ -120,10 +120,12 @@ h6 {
   --highlight-primary: hsl(240deg 95% 62%);
   --highlight-primary-foreground: hsl(240deg 95% 52%);
 
-  --highlight-secondary: hsl(240deg 95% 62%);
+  --highlight-secondary: hsl(230deg 100% 50%);
   --highlight-secondary-foreground: hsl(240deg 95% 52%);
 
-  --highlight-tertiary: hsl(230deg 100% 50%);
+  /* --highlight-tertiary: hsl(230deg 100% 50%); */
+
+  --highlight-tertiary: hsl(255deg 85% 30%);
 
   --destructive: hsl(340deg 95% 39%);
   --destructive-foreground: hsl(333deg 100% 45%);
