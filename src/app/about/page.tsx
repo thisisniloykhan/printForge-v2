@@ -7,7 +7,9 @@ export default function AboutPage(): JSX.Element {
     <>
       <main className="min-h-dvh mx-auto md:p-3 flex flex-col justify-between items-center gap-6 max-w-7xl ">
         <section className="p-3 flex flex-col gap-1.5 md:gap-8 md:flex-row ">
-          <h1 className="text-2xl font-bold  md:hidden">About PrintForge</h1>
+          <h1 className="text-2xl font-bold text-highlight-tertiary  md:hidden">
+            About PrintForge
+          </h1>
           <div className="py-3 flex flex-col gap-2 md:flex-row md:justify-center md:gap-8 ">
             <div className="max-w-125 ">
               <Image
@@ -17,28 +19,7 @@ export default function AboutPage(): JSX.Element {
                 priority
               />
             </div>
-            <div className="h-full md:max-w-1/2 md:py-4 md:px-6 flex flex-col flex-1 gap-4 ">
-              <p
-                className="hidden md:block text-sm text-secondary-foreground uppercase"
-                aria-hidden="true"
-              >
-                About PrintForge
-              </p>
-              <h2 className="text-2xl font-bold sm:text-4xl text-highlight-secondary">
-                Empowering Makers Worldwide
-              </h2>
-              <p className="md:block md:text-lg text-secondary-foreground">
-                Founded in 2023, PrintForge has quickly become the go-to
-                platform for 3D printing enthusiasts, makers, and professional
-                designers to share and discover amazing STL files for 3D
-                printing.
-              </p>
-              <p>
-                Our mission is to foster a vibrant community where creativity
-                meets technology, enabling anyone to bring their ideas to life
-                through 3D printing.
-              </p>
-            </div>
+
             <div className="h-full md:max-w-1/2 md:py-4 md:px-6 flex flex-col flex-1 gap-4 ">
               <p
                 className="hidden md:block text-sm text-secondary-foreground uppercase"
@@ -105,7 +86,9 @@ export default function AboutPage(): JSX.Element {
 
         <section className="p-3">
           <div className="py-4 md:p-4 flex flex-col flex-1 gap-4 ">
-            <h2 className="text-2xl font-bold text-destructive">Our Vision</h2>
+            <h2 className="text-2xl font-bold text-highlight-tertiary">
+              Our Vision
+            </h2>
             <p className="md:block md:text-lg text-secondary-foreground">
               At PrintForge, we believe that 3D printing is revolutionizing the
               way we create, prototype, and manufacture. Our platform serves as

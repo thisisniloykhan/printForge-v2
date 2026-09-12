@@ -60,6 +60,8 @@ h6 {
   --color-highlight-secondary: var(--highlight-secondary);
   --color-highlight-secondary-foreground: var(--highlight-secondary-foreground);
 
+  --color-highlight-tertiary: var(--highlight-tertiary);
+
   --color-destructive: var(--destructive);
   --color-destructive-foreground: var(--destructive-foreground);
 
@@ -117,8 +119,11 @@ h6 {
 
   --highlight-primary: hsl(240deg 95% 62%);
   --highlight-primary-foreground: hsl(240deg 95% 52%);
+
   --highlight-secondary: hsl(240deg 95% 62%);
   --highlight-secondary-foreground: hsl(240deg 95% 52%);
+
+  --highlight-tertiary: hsl(230deg 100% 50%);
 
   --destructive: hsl(340deg 95% 39%);
   --destructive-foreground: hsl(333deg 100% 45%);
@@ -172,6 +177,8 @@ h6 {
 
   --highlight-secondary: hsl(180, 100%, 50%);
   --highlight-secondary-foreground: hsl(200deg 100% 75%);
+
+  --highlight-tertiary: hsl(240deg 95% 62%);
 
   --destructive: hsl(340deg 100% 40%);
   --destructive-foreground: hsl(333deg 100% 55%);
