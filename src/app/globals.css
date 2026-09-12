@@ -117,10 +117,10 @@ h6 {
   --accent: hsl(0, 0%, 88%);
   --accent-foreground: oklch(0.22 0 0);
 
-  --highlight-primary: hsl(240deg 95% 62%);
+  --highlight-primary: hsl(230deg 100% 50%);
   --highlight-primary-foreground: hsl(240deg 95% 52%);
 
-  --highlight-secondary: hsl(230deg 100% 50%);
+  --highlight-secondary: hsl(240deg 95% 62%);
   --highlight-secondary-foreground: hsl(240deg 95% 52%);
 
   /* --highlight-tertiary: hsl(230deg 100% 50%); */
