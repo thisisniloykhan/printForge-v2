@@ -46,34 +46,35 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           disableTransitionOnChange
         >
           <TooltipProvider>
-            {/* <header className="sticky top-0 z-10 w-full bg-primary"> */}
             {/* <header
               className="sticky top-0 z-10 w-full bg-card after:absolute after:inset-x-0 after:bottom-0 after:h-4 after:bg-linear-to-b after:from-transparent after:to-background"
               style={{ borderRadius: "0 0 50% 50% / 0 0 16px 16px" }}
-            > */}
+              > */}
 
-            <header
+            {/* <header
               className="sticky top-0 z-11 w-full bg-card after:absolute after:inset-x-0 after:bottom-0 after:h-3 after:bg-linear-to-b after:from-transparent after:to-background"
               style={{
                 clipPath: "url(#header-curve)",
                 WebkitClipPath: "url(#header-curve)",
-              }}
-            >
-              <Nav />
-              <svg width="0" height="0" className="absolute">
+                }}
+                >
+                <Nav />
+                <svg width="0" height="0" className="absolute">
                 <defs>
-                  <clipPath id="header-curve" clipPathUnits="objectBoundingBox">
-                    <path
-                      d="
-        M0,0 L1,0 L1,0.92
-        C 0.9,0.92 0.75,1 0.5,1
-        C 0.25,1 0.1,0.92 0,0.92
-        Z
-      "
-                    />
-                  </clipPath>
+                <clipPath id="header-curve" clipPathUnits="objectBoundingBox">
+                <path
+                d="
+                M0,0 L1,0 L1,0.92
+                C 0.9,0.92 0.75,1 0.5,1
+                C 0.25,1 0.1,0.92 0,0.92
+                Z
+                "
+                />
+                </clipPath>
                 </defs>
-              </svg>
+                </svg> */}
+            <header className="sticky top-0 z-10 w-full">
+              <Nav />
             </header>
             {children}
           </TooltipProvider>

@@ -50,8 +50,8 @@ export default function Nav(): JSX.Element {
     <nav
       ref={navRef}
       aria-label="Main navigation"
-      className="h-19 sm:h-23 relative flex items-center justify-between px-2 sm:px-4 md:px-6 py-4"
-      // className="h-17.5 sm:h-21.5 relative flex items-center justify-between border-b border-border px-2 sm:px-4 md:px-6 py-4 shadow-sm"
+      // className="h-19 sm:h-23 relative flex items-center justify-between px-2 sm:px-4 md:px-6 py-4"
+      className="h-17.5 sm:h-21.5 relative flex items-center justify-between border-b border-secondary px-2 sm:px-4 md:px-6 py-4 shadow-sm bg-card"
     >
       {/* Logo */}
       <Tooltip>

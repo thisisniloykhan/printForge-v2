@@ -27,7 +27,7 @@ export default function ModelCard({ model }: ModelCardProps) {
           <div className="flex justify-between mb-2 min-h-14">
             <h2
               id={`model-${model.id}-title`}
-              className="text-xl font-semibold line-clamp-2"
+              className="text-xl font-semibold line-clamp-2 text-highlight-tertiary"
             >
               {model.name}
             </h2>

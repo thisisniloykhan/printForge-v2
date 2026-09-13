@@ -34,12 +34,20 @@ export default async function ModelDetailPage({
             role="status"
             aria-label="Likes count"
           >
-            <FaRegHeart className="w-5 h-5 mr-2" aria-hidden="true" />
-            <span className="font-light" aria-label={`${model.likes} likes`}>
+            <FaRegHeart
+              className="w-5 h-5 mr-2 text-highlight-tertiary "
+              aria-hidden="true"
+            />
+            <span
+              className="font-light text-highlight-tertiary"
+              aria-label={`${model.likes} likes`}
+            >
               {model.likes}
             </span>
           </div>
-          <h1 className="mb-6 text-4xl font-bold">{model.name}</h1>
+          <h1 className="mb-6 text-4xl font-bold text-highlight-primary">
+            {model.name}
+          </h1>
 
           <Pill
             className="mb-6 w-fit text-secondary-foreground"

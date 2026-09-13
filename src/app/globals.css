@@ -99,8 +99,8 @@ h6 {
   --background: hsl(0deg 0% 100%);
   --foreground: hsl(222deg 22% 5%);
 
-  /* --card: hsl(203deg 60% 95%); */
-  --card: hsl(200deg 90% 88%);
+  --card: hsl(203deg 60% 95%);
+  /* --card: hsl(200deg 90% 88%); */
   --card-foreground: hsl(222deg 22% 5%);
 
   --popover: hsl(202deg 68% 92%);
